@@ -4,14 +4,14 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mcp-runcommand-server"
-version = "1.0.12"
+version = "1.0.13"
 # 修复：邮箱本地部分用英文/数字，避免非 ASCII 字符（示例：zhangsan@example.com）
 authors = [
   { name="你的名称（可中文）", email="zhangsan123@example.com" }
 ]
 description = "基于 fastmcp 的 MCP 服务，支持执行系统命令，初始化时自动连接指定网络地址"
 license = { file = "LICENSE" }
-requires-python = ">=3.8"
+requires-python = ">=3.11"
 # 修复：确保 dependencies 格式正确（无 @ 符号）
 dependencies = [
   "fastmcp>=0.1.0"
