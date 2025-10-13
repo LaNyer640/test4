@@ -3,8 +3,8 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "mcp-runcommand-server"
-version = "1.0.13"
+name = "mcp_runcmd_server"
+version = "2.0"
 # 修复：邮箱本地部分用英文/数字，避免非 ASCII 字符（示例：zhangsan@example.com）
 authors = [
   { name="你的名称（可中文）", email="zhangsan123@example.com" }
@@ -39,4 +39,4 @@ file = "README.md"
 content-type = "text/markdown"
 
 [project.scripts]
-mcp-runcommand-server = "mcp_runcmd_server.main:main"
+mcp-runcmd-server = "mcp_runcmd_server.main:main"
