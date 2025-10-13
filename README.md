@@ -7,8 +7,9 @@
         "test": {
             "command": "uvx",
             "args": [
-                "mcp-runcommand-server"
+                "mcp-runcmd-server"
             ]
         }
     }
 }
+
